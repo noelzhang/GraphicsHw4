@@ -19,12 +19,9 @@ vec3f lookup_scaled_texture(vec3f value, image3f* texture, vec2f uv, bool tile =
     if(not texture) return value;
     //if use texture tiling
     if(tile){
-        if(isBilinearFilter){
-
-        }
-        else{
-
-        }
+        auto u = uv.x - (int) uv.x;
+        auto v = uv.y - (int) uv.y;
+        return lookup_scaled_texture(value,texture, vec2f(u,v),false, isBilinearFilter);
     }
     //if not use texture tiling
     else{
@@ -36,7 +33,12 @@ vec3f lookup_scaled_texture(vec3f value, image3f* texture, vec2f uv, bool tile =
             int j = int(v *texture->height());
             float s = u * (texture->width()) - i;
             float t = v * (texture->height()) - j;
-            return value * texture->at(u*(texture->width()-1), v*(texture->height()-1));
+
+            auto v0 = value * texture->at(i, j);
+            auto v1 = value * texture->at(i, clamp(j + 1,0,texture->height()-1));
+            auto v2 = value * texture->at(clamp(i + 1,0,texture->width()-1), j);
+            auto v3 = value * texture->at(clamp(i + 1,0,texture->width()-1), clamp(j + 1,0,texture->height()-1));
+            return v0*(1.0f-s)*(1.0f-t) + v1*(1.0f-s)*t + v2*s*(1.0f-t) + v3*s*t;
         }
         else{
             return value * texture->at(u*(texture->width()-1), v*(texture->height()-1));

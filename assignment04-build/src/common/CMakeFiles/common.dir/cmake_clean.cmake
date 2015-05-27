@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/common.dir/tesselation.cpp.o"
   "CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o"
   "CMakeFiles/common.dir/ext/glew/glew.c.o"
-  "/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.pdb"
-  "/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a"
+  "/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.pdb"
+  "/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a"
 )
 
 # Per-language clean rules from dependency scanning.

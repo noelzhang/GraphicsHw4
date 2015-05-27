@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/deps/EGL/eglext.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/deps/EGL/eglext.h
 EGL/eglplatform.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/deps/GL/glext.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/deps/GL/glext.h
 windows.h
 -
 stddef.h
@@ -28,7 +28,7 @@ stdint.h
 inttypes.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/deps/GL/glxext.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/deps/GL/glxext.h
 inttypes.h
 -
 inttypes.h
@@ -42,11 +42,11 @@ stdint.h
 inttypes.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/deps/GL/wglext.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/deps/GL/wglext.h
 windows.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/include/GLFW/glfw3.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/include/GLFW/glfw3.h
 stddef.h
 -
 OpenGL/gl3.h
@@ -68,25 +68,25 @@ GL/gl.h
 GL/glu.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/clipboard.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/clipboard.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 math.h
 -
 string.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_clipboard.m
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_clipboard.m
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 limits.h
 -
 string.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_gamma.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_gamma.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 limits.h
 -
 stdlib.h
@@ -96,15 +96,15 @@ string.h
 ApplicationServices/ApplicationServices.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_init.m
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_init.m
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 sys/param.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_joystick.m
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_joystick.m
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 unistd.h
 -
 ctype.h
@@ -118,9 +118,9 @@ CoreFoundation/CoreFoundation.h
 Kernel/IOKit/hidsystem/IOHIDUsageTables.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_monitor.m
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_monitor.m
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 stdlib.h
 -
 limits.h
@@ -128,7 +128,7 @@ limits.h
 IOKit/graphics/IOGraphicsLib.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_platform.h
 stdint.h
 -
 Cocoa/Cocoa.h
@@ -136,7 +136,7 @@ Cocoa/Cocoa.h
 ApplicationServices/ApplicationServices.h
 -
 nsgl_platform.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/nsgl_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/nsgl_platform.h
 IOKit/IOKitLib.h
 -
 IOKit/IOCFPlugIn.h
@@ -146,21 +146,21 @@ IOKit/hid/IOHIDLib.h
 IOKit/hid/IOHIDKeys.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_time.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_time.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 mach/mach_time.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_window.m
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_window.m
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 crt_externs.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/context.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/context.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 stdio.h
 -
 string.h
@@ -170,17 +170,17 @@ limits.h
 stdio.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/egl_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/egl_platform.h
 EGL/egl.h
 -
 ../deps/EGL/eglext.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/deps/EGL/eglext.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/deps/EGL/eglext.h
 dlfcn.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/gamma.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/gamma.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 math.h
 -
 stdlib.h
@@ -190,17 +190,17 @@ string.h
 malloc.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/glx_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/glx_platform.h
 GL/glx.h
 -
 ../deps/GL/glxext.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/deps/GL/glxext.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/deps/GL/glxext.h
 dlfcn.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/init.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/init.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 string.h
 -
 stdlib.h
@@ -210,31 +210,31 @@ stdio.h
 stdarg.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/input.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/input.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 config.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/config.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/config.h
 ../include/GLFW/glfw3.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/include/GLFW/glfw3.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/include/GLFW/glfw3.h
 ../deps/GL/glext.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/deps/GL/glext.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/deps/GL/glext.h
 cocoa_platform.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_platform.h
 win32_platform.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/win32_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/win32_platform.h
 x11_platform.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/x11_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/x11_platform.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/joystick.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/joystick.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/monitor.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/monitor.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 string.h
 -
 stdlib.h
@@ -244,23 +244,23 @@ limits.h
 malloc.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/nsgl_context.m
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/nsgl_context.m
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 pthread.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/nsgl_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/nsgl_platform.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/time.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/time.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/wgl_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/wgl_platform.h
 ../deps/GL/wglext.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/deps/GL/wglext.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/deps/GL/wglext.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/win32_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/win32_platform.h
 windows.h
 -
 mmsystem.h
@@ -268,13 +268,13 @@ mmsystem.h
 dbt.h
 -
 wgl_platform.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/wgl_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/wgl_platform.h
 egl_platform.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/egl_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/egl_platform.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/window.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/window.c
 internal.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/internal.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/internal.h
 string.h
 -
 stdlib.h
@@ -282,7 +282,7 @@ stdlib.h
 malloc.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/x11_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/x11_platform.h
 unistd.h
 -
 signal.h
@@ -304,9 +304,9 @@ X11/extensions/XInput2.h
 X11/XKBlib.h
 -
 glx_platform.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/glx_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/glx_platform.h
 egl_platform.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/egl_platform.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/egl_platform.h
 
 src/common/ext/glfw/src/config.h
 

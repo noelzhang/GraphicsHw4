@@ -35,10 +35,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangnoel/Dropbox/assignment04
+CMAKE_SOURCE_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangnoel/Dropbox/assignment04-build
+CMAKE_BINARY_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build
 
 # Include any dependencies generated for this target.
 include src/common/CMakeFiles/common.dir/depend.make
@@ -50,18 +50,18 @@ include src/common/CMakeFiles/common.dir/progress.make
 include src/common/CMakeFiles/common.dir/flags.make
 
 src/common/CMakeFiles/common.dir/animation.cpp.o: src/common/CMakeFiles/common.dir/flags.make
-src/common/CMakeFiles/common.dir/animation.cpp.o: /Users/zhangnoel/Dropbox/assignment04/src/common/animation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_1)
+src/common/CMakeFiles/common.dir/animation.cpp.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/animation.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/common/CMakeFiles/common.dir/animation.cpp.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/animation.cpp.o -c /Users/zhangnoel/Dropbox/assignment04/src/common/animation.cpp
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/animation.cpp.o -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/animation.cpp
 
 src/common/CMakeFiles/common.dir/animation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/animation.cpp.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/animation.cpp > CMakeFiles/common.dir/animation.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/animation.cpp > CMakeFiles/common.dir/animation.cpp.i
 
 src/common/CMakeFiles/common.dir/animation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/animation.cpp.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/animation.cpp -o CMakeFiles/common.dir/animation.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/animation.cpp -o CMakeFiles/common.dir/animation.cpp.s
 
 src/common/CMakeFiles/common.dir/animation.cpp.o.requires:
 .PHONY : src/common/CMakeFiles/common.dir/animation.cpp.o.requires
@@ -73,18 +73,18 @@ src/common/CMakeFiles/common.dir/animation.cpp.o.provides: src/common/CMakeFiles
 src/common/CMakeFiles/common.dir/animation.cpp.o.provides.build: src/common/CMakeFiles/common.dir/animation.cpp.o
 
 src/common/CMakeFiles/common.dir/image.cpp.o: src/common/CMakeFiles/common.dir/flags.make
-src/common/CMakeFiles/common.dir/image.cpp.o: /Users/zhangnoel/Dropbox/assignment04/src/common/image.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_2)
+src/common/CMakeFiles/common.dir/image.cpp.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/image.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/common/CMakeFiles/common.dir/image.cpp.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/image.cpp.o -c /Users/zhangnoel/Dropbox/assignment04/src/common/image.cpp
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/image.cpp.o -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/image.cpp
 
 src/common/CMakeFiles/common.dir/image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/image.cpp.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/image.cpp > CMakeFiles/common.dir/image.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/image.cpp > CMakeFiles/common.dir/image.cpp.i
 
 src/common/CMakeFiles/common.dir/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/image.cpp.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/image.cpp -o CMakeFiles/common.dir/image.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/image.cpp -o CMakeFiles/common.dir/image.cpp.s
 
 src/common/CMakeFiles/common.dir/image.cpp.o.requires:
 .PHONY : src/common/CMakeFiles/common.dir/image.cpp.o.requires
@@ -96,18 +96,18 @@ src/common/CMakeFiles/common.dir/image.cpp.o.provides: src/common/CMakeFiles/com
 src/common/CMakeFiles/common.dir/image.cpp.o.provides.build: src/common/CMakeFiles/common.dir/image.cpp.o
 
 src/common/CMakeFiles/common.dir/intersect.cpp.o: src/common/CMakeFiles/common.dir/flags.make
-src/common/CMakeFiles/common.dir/intersect.cpp.o: /Users/zhangnoel/Dropbox/assignment04/src/common/intersect.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_3)
+src/common/CMakeFiles/common.dir/intersect.cpp.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/intersect.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/common/CMakeFiles/common.dir/intersect.cpp.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/intersect.cpp.o -c /Users/zhangnoel/Dropbox/assignment04/src/common/intersect.cpp
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/intersect.cpp.o -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/intersect.cpp
 
 src/common/CMakeFiles/common.dir/intersect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/intersect.cpp.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/intersect.cpp > CMakeFiles/common.dir/intersect.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/intersect.cpp > CMakeFiles/common.dir/intersect.cpp.i
 
 src/common/CMakeFiles/common.dir/intersect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/intersect.cpp.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/intersect.cpp -o CMakeFiles/common.dir/intersect.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/intersect.cpp -o CMakeFiles/common.dir/intersect.cpp.s
 
 src/common/CMakeFiles/common.dir/intersect.cpp.o.requires:
 .PHONY : src/common/CMakeFiles/common.dir/intersect.cpp.o.requires
@@ -119,18 +119,18 @@ src/common/CMakeFiles/common.dir/intersect.cpp.o.provides: src/common/CMakeFiles
 src/common/CMakeFiles/common.dir/intersect.cpp.o.provides.build: src/common/CMakeFiles/common.dir/intersect.cpp.o
 
 src/common/CMakeFiles/common.dir/json.cpp.o: src/common/CMakeFiles/common.dir/flags.make
-src/common/CMakeFiles/common.dir/json.cpp.o: /Users/zhangnoel/Dropbox/assignment04/src/common/json.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_4)
+src/common/CMakeFiles/common.dir/json.cpp.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/json.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/common/CMakeFiles/common.dir/json.cpp.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/json.cpp.o -c /Users/zhangnoel/Dropbox/assignment04/src/common/json.cpp
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/json.cpp.o -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/json.cpp
 
 src/common/CMakeFiles/common.dir/json.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/json.cpp.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/json.cpp > CMakeFiles/common.dir/json.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/json.cpp > CMakeFiles/common.dir/json.cpp.i
 
 src/common/CMakeFiles/common.dir/json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/json.cpp.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/json.cpp -o CMakeFiles/common.dir/json.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/json.cpp -o CMakeFiles/common.dir/json.cpp.s
 
 src/common/CMakeFiles/common.dir/json.cpp.o.requires:
 .PHONY : src/common/CMakeFiles/common.dir/json.cpp.o.requires
@@ -142,18 +142,18 @@ src/common/CMakeFiles/common.dir/json.cpp.o.provides: src/common/CMakeFiles/comm
 src/common/CMakeFiles/common.dir/json.cpp.o.provides.build: src/common/CMakeFiles/common.dir/json.cpp.o
 
 src/common/CMakeFiles/common.dir/scene.cpp.o: src/common/CMakeFiles/common.dir/flags.make
-src/common/CMakeFiles/common.dir/scene.cpp.o: /Users/zhangnoel/Dropbox/assignment04/src/common/scene.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_5)
+src/common/CMakeFiles/common.dir/scene.cpp.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/common/CMakeFiles/common.dir/scene.cpp.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/scene.cpp.o -c /Users/zhangnoel/Dropbox/assignment04/src/common/scene.cpp
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/scene.cpp.o -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.cpp
 
 src/common/CMakeFiles/common.dir/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/scene.cpp.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/scene.cpp > CMakeFiles/common.dir/scene.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.cpp > CMakeFiles/common.dir/scene.cpp.i
 
 src/common/CMakeFiles/common.dir/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/scene.cpp.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/scene.cpp -o CMakeFiles/common.dir/scene.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.cpp -o CMakeFiles/common.dir/scene.cpp.s
 
 src/common/CMakeFiles/common.dir/scene.cpp.o.requires:
 .PHONY : src/common/CMakeFiles/common.dir/scene.cpp.o.requires
@@ -165,18 +165,18 @@ src/common/CMakeFiles/common.dir/scene.cpp.o.provides: src/common/CMakeFiles/com
 src/common/CMakeFiles/common.dir/scene.cpp.o.provides.build: src/common/CMakeFiles/common.dir/scene.cpp.o
 
 src/common/CMakeFiles/common.dir/tesselation.cpp.o: src/common/CMakeFiles/common.dir/flags.make
-src/common/CMakeFiles/common.dir/tesselation.cpp.o: /Users/zhangnoel/Dropbox/assignment04/src/common/tesselation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_6)
+src/common/CMakeFiles/common.dir/tesselation.cpp.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/tesselation.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/common/CMakeFiles/common.dir/tesselation.cpp.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/tesselation.cpp.o -c /Users/zhangnoel/Dropbox/assignment04/src/common/tesselation.cpp
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/tesselation.cpp.o -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/tesselation.cpp
 
 src/common/CMakeFiles/common.dir/tesselation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/tesselation.cpp.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/tesselation.cpp > CMakeFiles/common.dir/tesselation.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/tesselation.cpp > CMakeFiles/common.dir/tesselation.cpp.i
 
 src/common/CMakeFiles/common.dir/tesselation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/tesselation.cpp.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/tesselation.cpp -o CMakeFiles/common.dir/tesselation.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/tesselation.cpp -o CMakeFiles/common.dir/tesselation.cpp.s
 
 src/common/CMakeFiles/common.dir/tesselation.cpp.o.requires:
 .PHONY : src/common/CMakeFiles/common.dir/tesselation.cpp.o.requires
@@ -188,18 +188,18 @@ src/common/CMakeFiles/common.dir/tesselation.cpp.o.provides: src/common/CMakeFil
 src/common/CMakeFiles/common.dir/tesselation.cpp.o.provides.build: src/common/CMakeFiles/common.dir/tesselation.cpp.o
 
 src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o: src/common/CMakeFiles/common.dir/flags.make
-src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/lodepng/lodepng.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_7)
+src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/lodepng/lodepng.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/lodepng/lodepng.cpp
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/lodepng/lodepng.cpp
 
 src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/lodepng/lodepng.cpp > CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/lodepng/lodepng.cpp > CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.i
 
 src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/lodepng/lodepng.cpp -o CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/lodepng/lodepng.cpp -o CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.s
 
 src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o.requires:
 .PHONY : src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o.requires
@@ -211,18 +211,18 @@ src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o.provides: src/common/
 src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o.provides.build: src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o
 
 src/common/CMakeFiles/common.dir/ext/glew/glew.c.o: src/common/CMakeFiles/common.dir/flags.make
-src/common/CMakeFiles/common.dir/ext/glew/glew.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glew/glew.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_8)
+src/common/CMakeFiles/common.dir/ext/glew/glew.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glew/glew.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/CMakeFiles/common.dir/ext/glew/glew.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/common.dir/ext/glew/glew.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glew/glew.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/common.dir/ext/glew/glew.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glew/glew.c
 
 src/common/CMakeFiles/common.dir/ext/glew/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/common.dir/ext/glew/glew.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glew/glew.c > CMakeFiles/common.dir/ext/glew/glew.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glew/glew.c > CMakeFiles/common.dir/ext/glew/glew.c.i
 
 src/common/CMakeFiles/common.dir/ext/glew/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/common.dir/ext/glew/glew.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glew/glew.c -o CMakeFiles/common.dir/ext/glew/glew.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glew/glew.c -o CMakeFiles/common.dir/ext/glew/glew.c.s
 
 src/common/CMakeFiles/common.dir/ext/glew/glew.c.o.requires:
 .PHONY : src/common/CMakeFiles/common.dir/ext/glew/glew.c.o.requires
@@ -247,22 +247,22 @@ common_OBJECTS = \
 # External object files for target common
 common_EXTERNAL_OBJECTS =
 
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/animation.cpp.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/image.cpp.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/intersect.cpp.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/json.cpp.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/scene.cpp.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/tesselation.cpp.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/ext/glew/glew.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/build.make
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library /Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/animation.cpp.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/image.cpp.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/intersect.cpp.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/json.cpp.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/scene.cpp.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/tesselation.cpp.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/ext/glew/glew.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/build.make
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a: src/common/CMakeFiles/common.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a"
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/common/CMakeFiles/common.dir/build: /Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a
+src/common/CMakeFiles/common.dir/build: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a
 .PHONY : src/common/CMakeFiles/common.dir/build
 
 src/common/CMakeFiles/common.dir/requires: src/common/CMakeFiles/common.dir/animation.cpp.o.requires
@@ -276,10 +276,10 @@ src/common/CMakeFiles/common.dir/requires: src/common/CMakeFiles/common.dir/ext/
 .PHONY : src/common/CMakeFiles/common.dir/requires
 
 src/common/CMakeFiles/common.dir/clean:
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
 .PHONY : src/common/CMakeFiles/common.dir/clean
 
 src/common/CMakeFiles/common.dir/depend:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangnoel/Dropbox/assignment04 /Users/zhangnoel/Dropbox/assignment04/src/common /Users/zhangnoel/Dropbox/assignment04-build /Users/zhangnoel/Dropbox/assignment04-build/src/common /Users/zhangnoel/Dropbox/assignment04-build/src/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangnoel/GitHub/GraphicsHw4/assignment04 /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/common/CMakeFiles/common.dir/depend
 

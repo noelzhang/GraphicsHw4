@@ -35,10 +35,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangnoel/Dropbox/assignment04
+CMAKE_SOURCE_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangnoel/Dropbox/assignment04-build
+CMAKE_BINARY_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build
 
 # Include any dependencies generated for this target.
 include src/apps/CMakeFiles/04_pathtrace.dir/depend.make
@@ -50,18 +50,18 @@ include src/apps/CMakeFiles/04_pathtrace.dir/progress.make
 include src/apps/CMakeFiles/04_pathtrace.dir/flags.make
 
 src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o: src/apps/CMakeFiles/04_pathtrace.dir/flags.make
-src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o: /Users/zhangnoel/Dropbox/assignment04/src/apps/04_pathtrace.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_1)
+src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/apps/04_pathtrace.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/apps && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o -c /Users/zhangnoel/Dropbox/assignment04/src/apps/04_pathtrace.cpp
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/apps && /usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/apps/04_pathtrace.cpp
 
 src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/apps && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/apps/04_pathtrace.cpp > CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/apps && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/apps/04_pathtrace.cpp > CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.i
 
 src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/apps && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/apps/04_pathtrace.cpp -o CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/apps && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/apps/04_pathtrace.cpp -o CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.s
 
 src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o.requires:
 .PHONY : src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o.requires
@@ -79,26 +79,26 @@ src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o.provides.build: src/apps
 # External object files for target 04_pathtrace
 04_pathtrace_EXTERNAL_OBJECTS =
 
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/04_pathtrace: src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/04_pathtrace: src/apps/CMakeFiles/04_pathtrace.dir/build.make
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/04_pathtrace: /Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/04_pathtrace: /Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/04_pathtrace: src/apps/CMakeFiles/04_pathtrace.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /Users/zhangnoel/Dropbox/assignment04/bin/mk/04_pathtrace"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/apps && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/04_pathtrace.dir/link.txt --verbose=$(VERBOSE)
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/04_pathtrace: src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/04_pathtrace: src/apps/CMakeFiles/04_pathtrace.dir/build.make
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/04_pathtrace: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/04_pathtrace: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/04_pathtrace: src/apps/CMakeFiles/04_pathtrace.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/04_pathtrace"
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/apps && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/04_pathtrace.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/apps/CMakeFiles/04_pathtrace.dir/build: /Users/zhangnoel/Dropbox/assignment04/bin/mk/04_pathtrace
+src/apps/CMakeFiles/04_pathtrace.dir/build: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/04_pathtrace
 .PHONY : src/apps/CMakeFiles/04_pathtrace.dir/build
 
 src/apps/CMakeFiles/04_pathtrace.dir/requires: src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o.requires
 .PHONY : src/apps/CMakeFiles/04_pathtrace.dir/requires
 
 src/apps/CMakeFiles/04_pathtrace.dir/clean:
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/apps && $(CMAKE_COMMAND) -P CMakeFiles/04_pathtrace.dir/cmake_clean.cmake
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/apps && $(CMAKE_COMMAND) -P CMakeFiles/04_pathtrace.dir/cmake_clean.cmake
 .PHONY : src/apps/CMakeFiles/04_pathtrace.dir/clean
 
 src/apps/CMakeFiles/04_pathtrace.dir/depend:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangnoel/Dropbox/assignment04 /Users/zhangnoel/Dropbox/assignment04/src/apps /Users/zhangnoel/Dropbox/assignment04-build /Users/zhangnoel/Dropbox/assignment04-build/src/apps /Users/zhangnoel/Dropbox/assignment04-build/src/apps/CMakeFiles/04_pathtrace.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangnoel/GitHub/GraphicsHw4/assignment04 /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/apps /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/apps /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/apps/CMakeFiles/04_pathtrace.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/apps/CMakeFiles/04_pathtrace.dir/depend
 

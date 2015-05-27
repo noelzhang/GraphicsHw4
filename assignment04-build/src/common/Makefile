@@ -42,10 +42,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangnoel/Dropbox/assignment04
+CMAKE_SOURCE_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangnoel/Dropbox/assignment04-build
+CMAKE_BINARY_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles /Users/zhangnoel/Dropbox/assignment04-build/src/common/CMakeFiles/progress.marks
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles 0
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/CMakeFiles/progress.marks
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/clean
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/preinstall
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/preinstall
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/common/CMakeFiles/common.dir/rule:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/CMakeFiles/common.dir/rule
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/CMakeFiles/common.dir/rule
 .PHONY : src/common/CMakeFiles/common.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ common: src/common/CMakeFiles/common.dir/rule
 
 # fast build rule for target.
 common/fast:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/build
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/build
 .PHONY : common/fast
 
 animation.o: animation.cpp.o
@@ -120,7 +120,7 @@ animation.o: animation.cpp.o
 
 # target to build an object file
 animation.cpp.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/animation.cpp.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/animation.cpp.o
 .PHONY : animation.cpp.o
 
 animation.i: animation.cpp.i
@@ -128,7 +128,7 @@ animation.i: animation.cpp.i
 
 # target to preprocess a source file
 animation.cpp.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/animation.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/animation.cpp.i
 .PHONY : animation.cpp.i
 
 animation.s: animation.cpp.s
@@ -136,7 +136,7 @@ animation.s: animation.cpp.s
 
 # target to generate assembly for a file
 animation.cpp.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/animation.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/animation.cpp.s
 .PHONY : animation.cpp.s
 
 ext/glew/glew.o: ext/glew/glew.c.o
@@ -144,7 +144,7 @@ ext/glew/glew.o: ext/glew/glew.c.o
 
 # target to build an object file
 ext/glew/glew.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/glew/glew.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/glew/glew.c.o
 .PHONY : ext/glew/glew.c.o
 
 ext/glew/glew.i: ext/glew/glew.c.i
@@ -152,7 +152,7 @@ ext/glew/glew.i: ext/glew/glew.c.i
 
 # target to preprocess a source file
 ext/glew/glew.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/glew/glew.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/glew/glew.c.i
 .PHONY : ext/glew/glew.c.i
 
 ext/glew/glew.s: ext/glew/glew.c.s
@@ -160,7 +160,7 @@ ext/glew/glew.s: ext/glew/glew.c.s
 
 # target to generate assembly for a file
 ext/glew/glew.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/glew/glew.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/glew/glew.c.s
 .PHONY : ext/glew/glew.c.s
 
 ext/lodepng/lodepng.o: ext/lodepng/lodepng.cpp.o
@@ -168,7 +168,7 @@ ext/lodepng/lodepng.o: ext/lodepng/lodepng.cpp.o
 
 # target to build an object file
 ext/lodepng/lodepng.cpp.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o
 .PHONY : ext/lodepng/lodepng.cpp.o
 
 ext/lodepng/lodepng.i: ext/lodepng/lodepng.cpp.i
@@ -176,7 +176,7 @@ ext/lodepng/lodepng.i: ext/lodepng/lodepng.cpp.i
 
 # target to preprocess a source file
 ext/lodepng/lodepng.cpp.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.i
 .PHONY : ext/lodepng/lodepng.cpp.i
 
 ext/lodepng/lodepng.s: ext/lodepng/lodepng.cpp.s
@@ -184,7 +184,7 @@ ext/lodepng/lodepng.s: ext/lodepng/lodepng.cpp.s
 
 # target to generate assembly for a file
 ext/lodepng/lodepng.cpp.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.s
 .PHONY : ext/lodepng/lodepng.cpp.s
 
 image.o: image.cpp.o
@@ -192,7 +192,7 @@ image.o: image.cpp.o
 
 # target to build an object file
 image.cpp.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/image.cpp.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/image.cpp.o
 .PHONY : image.cpp.o
 
 image.i: image.cpp.i
@@ -200,7 +200,7 @@ image.i: image.cpp.i
 
 # target to preprocess a source file
 image.cpp.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/image.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/image.cpp.i
 .PHONY : image.cpp.i
 
 image.s: image.cpp.s
@@ -208,7 +208,7 @@ image.s: image.cpp.s
 
 # target to generate assembly for a file
 image.cpp.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/image.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/image.cpp.s
 .PHONY : image.cpp.s
 
 intersect.o: intersect.cpp.o
@@ -216,7 +216,7 @@ intersect.o: intersect.cpp.o
 
 # target to build an object file
 intersect.cpp.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/intersect.cpp.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/intersect.cpp.o
 .PHONY : intersect.cpp.o
 
 intersect.i: intersect.cpp.i
@@ -224,7 +224,7 @@ intersect.i: intersect.cpp.i
 
 # target to preprocess a source file
 intersect.cpp.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/intersect.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/intersect.cpp.i
 .PHONY : intersect.cpp.i
 
 intersect.s: intersect.cpp.s
@@ -232,7 +232,7 @@ intersect.s: intersect.cpp.s
 
 # target to generate assembly for a file
 intersect.cpp.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/intersect.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/intersect.cpp.s
 .PHONY : intersect.cpp.s
 
 json.o: json.cpp.o
@@ -240,7 +240,7 @@ json.o: json.cpp.o
 
 # target to build an object file
 json.cpp.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/json.cpp.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/json.cpp.o
 .PHONY : json.cpp.o
 
 json.i: json.cpp.i
@@ -248,7 +248,7 @@ json.i: json.cpp.i
 
 # target to preprocess a source file
 json.cpp.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/json.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/json.cpp.i
 .PHONY : json.cpp.i
 
 json.s: json.cpp.s
@@ -256,7 +256,7 @@ json.s: json.cpp.s
 
 # target to generate assembly for a file
 json.cpp.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/json.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/json.cpp.s
 .PHONY : json.cpp.s
 
 scene.o: scene.cpp.o
@@ -264,7 +264,7 @@ scene.o: scene.cpp.o
 
 # target to build an object file
 scene.cpp.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/scene.cpp.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/scene.cpp.o
 .PHONY : scene.cpp.o
 
 scene.i: scene.cpp.i
@@ -272,7 +272,7 @@ scene.i: scene.cpp.i
 
 # target to preprocess a source file
 scene.cpp.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/scene.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/scene.cpp.i
 .PHONY : scene.cpp.i
 
 scene.s: scene.cpp.s
@@ -280,7 +280,7 @@ scene.s: scene.cpp.s
 
 # target to generate assembly for a file
 scene.cpp.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/scene.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/scene.cpp.s
 .PHONY : scene.cpp.s
 
 tesselation.o: tesselation.cpp.o
@@ -288,7 +288,7 @@ tesselation.o: tesselation.cpp.o
 
 # target to build an object file
 tesselation.cpp.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/tesselation.cpp.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/tesselation.cpp.o
 .PHONY : tesselation.cpp.o
 
 tesselation.i: tesselation.cpp.i
@@ -296,7 +296,7 @@ tesselation.i: tesselation.cpp.i
 
 # target to preprocess a source file
 tesselation.cpp.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/tesselation.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/tesselation.cpp.i
 .PHONY : tesselation.cpp.i
 
 tesselation.s: tesselation.cpp.s
@@ -304,7 +304,7 @@ tesselation.s: tesselation.cpp.s
 
 # target to generate assembly for a file
 tesselation.cpp.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/tesselation.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/CMakeFiles/common.dir/build.make src/common/CMakeFiles/common.dir/tesselation.cpp.s
 .PHONY : tesselation.cpp.s
 
 # Help Target
@@ -351,6 +351,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

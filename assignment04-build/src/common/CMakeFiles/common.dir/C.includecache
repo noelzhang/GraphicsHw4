@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glew/glew.c
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glew/glew.c
 glew.h
 -
 wglew.h
@@ -30,7 +30,7 @@ dlfcn.h
 mach-o/dyld.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glew/glew.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glew/glew.h
 stddef.h
 -
 inttypes.h
@@ -44,7 +44,7 @@ OpenGL/glu.h
 GL/glu.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glew/glxew.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glew/glxew.h
 X11/Xlib.h
 -
 X11/Xutil.h
@@ -54,7 +54,7 @@ X11/Xmd.h
 glew.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/glew/wglew.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glew/wglew.h
 windows.h
 -
 

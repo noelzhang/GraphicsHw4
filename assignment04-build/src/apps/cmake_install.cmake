@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhangnoel/Dropbox/assignment04/src/apps
+# Install script for directory: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

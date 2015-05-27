@@ -16,8 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/glfw.dir/cocoa_time.c.o"
   "CMakeFiles/glfw.dir/cocoa_window.m.o"
   "CMakeFiles/glfw.dir/nsgl_context.m.o"
-  "/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.pdb"
-  "/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a"
+  "/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.pdb"
+  "/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a"
 )
 
 # Per-language clean rules from dependency scanning.

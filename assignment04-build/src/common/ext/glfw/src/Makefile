@@ -42,10 +42,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangnoel/Dropbox/assignment04
+CMAKE_SOURCE_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangnoel/Dropbox/assignment04-build
+CMAKE_BINARY_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src/CMakeFiles/progress.marks
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/ext/glfw/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles 0
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src/CMakeFiles/progress.marks
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/ext/glfw/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/ext/glfw/src/clean
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/ext/glfw/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/ext/glfw/src/preinstall
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/ext/glfw/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/ext/glfw/src/preinstall
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/ext/glfw/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/rule:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/ext/glfw/src/CMakeFiles/glfw.dir/rule
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/common/ext/glfw/src/CMakeFiles/glfw.dir/rule
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ glfw: src/common/ext/glfw/src/CMakeFiles/glfw.dir/rule
 
 # fast build rule for target.
 glfw/fast:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/build
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
 clipboard.o: clipboard.c.o
@@ -120,7 +120,7 @@ clipboard.o: clipboard.c.o
 
 # target to build an object file
 clipboard.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o
 .PHONY : clipboard.c.o
 
 clipboard.i: clipboard.c.i
@@ -128,7 +128,7 @@ clipboard.i: clipboard.c.i
 
 # target to preprocess a source file
 clipboard.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.i
 .PHONY : clipboard.c.i
 
 clipboard.s: clipboard.c.s
@@ -136,7 +136,7 @@ clipboard.s: clipboard.c.s
 
 # target to generate assembly for a file
 clipboard.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.s
 .PHONY : clipboard.c.s
 
 cocoa_clipboard.o: cocoa_clipboard.m.o
@@ -144,7 +144,7 @@ cocoa_clipboard.o: cocoa_clipboard.m.o
 
 # target to build an object file
 cocoa_clipboard.m.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o
 .PHONY : cocoa_clipboard.m.o
 
 cocoa_clipboard.i: cocoa_clipboard.m.i
@@ -152,7 +152,7 @@ cocoa_clipboard.i: cocoa_clipboard.m.i
 
 # target to preprocess a source file
 cocoa_clipboard.m.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.i
 .PHONY : cocoa_clipboard.m.i
 
 cocoa_clipboard.s: cocoa_clipboard.m.s
@@ -160,7 +160,7 @@ cocoa_clipboard.s: cocoa_clipboard.m.s
 
 # target to generate assembly for a file
 cocoa_clipboard.m.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.s
 .PHONY : cocoa_clipboard.m.s
 
 cocoa_gamma.o: cocoa_gamma.c.o
@@ -168,7 +168,7 @@ cocoa_gamma.o: cocoa_gamma.c.o
 
 # target to build an object file
 cocoa_gamma.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o
 .PHONY : cocoa_gamma.c.o
 
 cocoa_gamma.i: cocoa_gamma.c.i
@@ -176,7 +176,7 @@ cocoa_gamma.i: cocoa_gamma.c.i
 
 # target to preprocess a source file
 cocoa_gamma.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.i
 .PHONY : cocoa_gamma.c.i
 
 cocoa_gamma.s: cocoa_gamma.c.s
@@ -184,7 +184,7 @@ cocoa_gamma.s: cocoa_gamma.c.s
 
 # target to generate assembly for a file
 cocoa_gamma.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.s
 .PHONY : cocoa_gamma.c.s
 
 cocoa_init.o: cocoa_init.m.o
@@ -192,7 +192,7 @@ cocoa_init.o: cocoa_init.m.o
 
 # target to build an object file
 cocoa_init.m.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o
 .PHONY : cocoa_init.m.o
 
 cocoa_init.i: cocoa_init.m.i
@@ -200,7 +200,7 @@ cocoa_init.i: cocoa_init.m.i
 
 # target to preprocess a source file
 cocoa_init.m.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.i
 .PHONY : cocoa_init.m.i
 
 cocoa_init.s: cocoa_init.m.s
@@ -208,7 +208,7 @@ cocoa_init.s: cocoa_init.m.s
 
 # target to generate assembly for a file
 cocoa_init.m.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.s
 .PHONY : cocoa_init.m.s
 
 cocoa_joystick.o: cocoa_joystick.m.o
@@ -216,7 +216,7 @@ cocoa_joystick.o: cocoa_joystick.m.o
 
 # target to build an object file
 cocoa_joystick.m.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o
 .PHONY : cocoa_joystick.m.o
 
 cocoa_joystick.i: cocoa_joystick.m.i
@@ -224,7 +224,7 @@ cocoa_joystick.i: cocoa_joystick.m.i
 
 # target to preprocess a source file
 cocoa_joystick.m.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.i
 .PHONY : cocoa_joystick.m.i
 
 cocoa_joystick.s: cocoa_joystick.m.s
@@ -232,7 +232,7 @@ cocoa_joystick.s: cocoa_joystick.m.s
 
 # target to generate assembly for a file
 cocoa_joystick.m.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.s
 .PHONY : cocoa_joystick.m.s
 
 cocoa_monitor.o: cocoa_monitor.m.o
@@ -240,7 +240,7 @@ cocoa_monitor.o: cocoa_monitor.m.o
 
 # target to build an object file
 cocoa_monitor.m.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o
 .PHONY : cocoa_monitor.m.o
 
 cocoa_monitor.i: cocoa_monitor.m.i
@@ -248,7 +248,7 @@ cocoa_monitor.i: cocoa_monitor.m.i
 
 # target to preprocess a source file
 cocoa_monitor.m.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.i
 .PHONY : cocoa_monitor.m.i
 
 cocoa_monitor.s: cocoa_monitor.m.s
@@ -256,7 +256,7 @@ cocoa_monitor.s: cocoa_monitor.m.s
 
 # target to generate assembly for a file
 cocoa_monitor.m.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.s
 .PHONY : cocoa_monitor.m.s
 
 cocoa_time.o: cocoa_time.c.o
@@ -264,7 +264,7 @@ cocoa_time.o: cocoa_time.c.o
 
 # target to build an object file
 cocoa_time.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o
 .PHONY : cocoa_time.c.o
 
 cocoa_time.i: cocoa_time.c.i
@@ -272,7 +272,7 @@ cocoa_time.i: cocoa_time.c.i
 
 # target to preprocess a source file
 cocoa_time.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.i
 .PHONY : cocoa_time.c.i
 
 cocoa_time.s: cocoa_time.c.s
@@ -280,7 +280,7 @@ cocoa_time.s: cocoa_time.c.s
 
 # target to generate assembly for a file
 cocoa_time.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.s
 .PHONY : cocoa_time.c.s
 
 cocoa_window.o: cocoa_window.m.o
@@ -288,7 +288,7 @@ cocoa_window.o: cocoa_window.m.o
 
 # target to build an object file
 cocoa_window.m.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o
 .PHONY : cocoa_window.m.o
 
 cocoa_window.i: cocoa_window.m.i
@@ -296,7 +296,7 @@ cocoa_window.i: cocoa_window.m.i
 
 # target to preprocess a source file
 cocoa_window.m.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.i
 .PHONY : cocoa_window.m.i
 
 cocoa_window.s: cocoa_window.m.s
@@ -304,7 +304,7 @@ cocoa_window.s: cocoa_window.m.s
 
 # target to generate assembly for a file
 cocoa_window.m.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.s
 .PHONY : cocoa_window.m.s
 
 context.o: context.c.o
@@ -312,7 +312,7 @@ context.o: context.c.o
 
 # target to build an object file
 context.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o
 .PHONY : context.c.o
 
 context.i: context.c.i
@@ -320,7 +320,7 @@ context.i: context.c.i
 
 # target to preprocess a source file
 context.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.i
 .PHONY : context.c.i
 
 context.s: context.c.s
@@ -328,7 +328,7 @@ context.s: context.c.s
 
 # target to generate assembly for a file
 context.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.s
 .PHONY : context.c.s
 
 gamma.o: gamma.c.o
@@ -336,7 +336,7 @@ gamma.o: gamma.c.o
 
 # target to build an object file
 gamma.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o
 .PHONY : gamma.c.o
 
 gamma.i: gamma.c.i
@@ -344,7 +344,7 @@ gamma.i: gamma.c.i
 
 # target to preprocess a source file
 gamma.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.i
 .PHONY : gamma.c.i
 
 gamma.s: gamma.c.s
@@ -352,7 +352,7 @@ gamma.s: gamma.c.s
 
 # target to generate assembly for a file
 gamma.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.s
 .PHONY : gamma.c.s
 
 init.o: init.c.o
@@ -360,7 +360,7 @@ init.o: init.c.o
 
 # target to build an object file
 init.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o
 .PHONY : init.c.o
 
 init.i: init.c.i
@@ -368,7 +368,7 @@ init.i: init.c.i
 
 # target to preprocess a source file
 init.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.i
 .PHONY : init.c.i
 
 init.s: init.c.s
@@ -376,7 +376,7 @@ init.s: init.c.s
 
 # target to generate assembly for a file
 init.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.s
 .PHONY : init.c.s
 
 input.o: input.c.o
@@ -384,7 +384,7 @@ input.o: input.c.o
 
 # target to build an object file
 input.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o
 .PHONY : input.c.o
 
 input.i: input.c.i
@@ -392,7 +392,7 @@ input.i: input.c.i
 
 # target to preprocess a source file
 input.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.i
 .PHONY : input.c.i
 
 input.s: input.c.s
@@ -400,7 +400,7 @@ input.s: input.c.s
 
 # target to generate assembly for a file
 input.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.s
 .PHONY : input.c.s
 
 joystick.o: joystick.c.o
@@ -408,7 +408,7 @@ joystick.o: joystick.c.o
 
 # target to build an object file
 joystick.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o
 .PHONY : joystick.c.o
 
 joystick.i: joystick.c.i
@@ -416,7 +416,7 @@ joystick.i: joystick.c.i
 
 # target to preprocess a source file
 joystick.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.i
 .PHONY : joystick.c.i
 
 joystick.s: joystick.c.s
@@ -424,7 +424,7 @@ joystick.s: joystick.c.s
 
 # target to generate assembly for a file
 joystick.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.s
 .PHONY : joystick.c.s
 
 monitor.o: monitor.c.o
@@ -432,7 +432,7 @@ monitor.o: monitor.c.o
 
 # target to build an object file
 monitor.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
 .PHONY : monitor.c.o
 
 monitor.i: monitor.c.i
@@ -440,7 +440,7 @@ monitor.i: monitor.c.i
 
 # target to preprocess a source file
 monitor.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.i
 .PHONY : monitor.c.i
 
 monitor.s: monitor.c.s
@@ -448,7 +448,7 @@ monitor.s: monitor.c.s
 
 # target to generate assembly for a file
 monitor.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.s
 .PHONY : monitor.c.s
 
 nsgl_context.o: nsgl_context.m.o
@@ -456,7 +456,7 @@ nsgl_context.o: nsgl_context.m.o
 
 # target to build an object file
 nsgl_context.m.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o
 .PHONY : nsgl_context.m.o
 
 nsgl_context.i: nsgl_context.m.i
@@ -464,7 +464,7 @@ nsgl_context.i: nsgl_context.m.i
 
 # target to preprocess a source file
 nsgl_context.m.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.i
 .PHONY : nsgl_context.m.i
 
 nsgl_context.s: nsgl_context.m.s
@@ -472,7 +472,7 @@ nsgl_context.s: nsgl_context.m.s
 
 # target to generate assembly for a file
 nsgl_context.m.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.s
 .PHONY : nsgl_context.m.s
 
 time.o: time.c.o
@@ -480,7 +480,7 @@ time.o: time.c.o
 
 # target to build an object file
 time.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o
 .PHONY : time.c.o
 
 time.i: time.c.i
@@ -488,7 +488,7 @@ time.i: time.c.i
 
 # target to preprocess a source file
 time.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.i
 .PHONY : time.c.i
 
 time.s: time.c.s
@@ -496,7 +496,7 @@ time.s: time.c.s
 
 # target to generate assembly for a file
 time.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.s
 .PHONY : time.c.s
 
 window.o: window.c.o
@@ -504,7 +504,7 @@ window.o: window.c.o
 
 # target to build an object file
 window.c.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o
 .PHONY : window.c.o
 
 window.i: window.c.i
@@ -512,7 +512,7 @@ window.i: window.c.i
 
 # target to preprocess a source file
 window.c.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.i
 .PHONY : window.c.i
 
 window.s: window.c.s
@@ -520,7 +520,7 @@ window.s: window.c.s
 
 # target to generate assembly for a file
 window.c.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.s
 .PHONY : window.c.s
 
 # Help Target
@@ -594,6 +594,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

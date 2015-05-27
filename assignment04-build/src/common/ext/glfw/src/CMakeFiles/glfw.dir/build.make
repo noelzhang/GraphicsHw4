@@ -35,10 +35,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangnoel/Dropbox/assignment04
+CMAKE_SOURCE_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangnoel/Dropbox/assignment04-build
+CMAKE_BINARY_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build
 
 # Include any dependencies generated for this target.
 include src/common/ext/glfw/src/CMakeFiles/glfw.dir/depend.make
@@ -50,18 +50,18 @@ include src/common/ext/glfw/src/CMakeFiles/glfw.dir/progress.make
 include src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/clipboard.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_1)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/clipboard.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/clipboard.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/clipboard.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/clipboard.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/clipboard.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/clipboard.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/clipboard.c > CMakeFiles/glfw.dir/clipboard.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/clipboard.c > CMakeFiles/glfw.dir/clipboard.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/clipboard.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/clipboard.c -o CMakeFiles/glfw.dir/clipboard.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/clipboard.c -o CMakeFiles/glfw.dir/clipboard.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o.requires
@@ -73,18 +73,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o.provides: src/common/e
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/context.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_2)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/context.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/context.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/context.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/context.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/context.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/context.c > CMakeFiles/glfw.dir/context.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/context.c > CMakeFiles/glfw.dir/context.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/context.c -o CMakeFiles/glfw.dir/context.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/context.c -o CMakeFiles/glfw.dir/context.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o.requires
@@ -96,18 +96,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o.provides: src/common/ext
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/gamma.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_3)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/gamma.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/gamma.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/gamma.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/gamma.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/gamma.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/gamma.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/gamma.c > CMakeFiles/glfw.dir/gamma.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/gamma.c > CMakeFiles/glfw.dir/gamma.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/gamma.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/gamma.c -o CMakeFiles/glfw.dir/gamma.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/gamma.c -o CMakeFiles/glfw.dir/gamma.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o.requires
@@ -119,18 +119,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o.provides: src/common/ext/g
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/init.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_4)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/init.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/init.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/init.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/init.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/init.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/init.c > CMakeFiles/glfw.dir/init.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/init.c > CMakeFiles/glfw.dir/init.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/init.c -o CMakeFiles/glfw.dir/init.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/init.c -o CMakeFiles/glfw.dir/init.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o.requires
@@ -142,18 +142,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o.provides: src/common/ext/gl
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/input.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_5)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/input.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/input.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/input.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/input.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/input.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/input.c > CMakeFiles/glfw.dir/input.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/input.c > CMakeFiles/glfw.dir/input.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/input.c -o CMakeFiles/glfw.dir/input.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/input.c -o CMakeFiles/glfw.dir/input.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o.requires
@@ -165,18 +165,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o.provides: src/common/ext/g
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/joystick.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_6)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/joystick.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/joystick.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/joystick.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/joystick.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/joystick.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/joystick.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/joystick.c > CMakeFiles/glfw.dir/joystick.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/joystick.c > CMakeFiles/glfw.dir/joystick.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/joystick.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/joystick.c -o CMakeFiles/glfw.dir/joystick.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/joystick.c -o CMakeFiles/glfw.dir/joystick.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o.requires
@@ -188,18 +188,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o.provides: src/common/ex
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/monitor.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_7)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/monitor.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/monitor.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/monitor.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/monitor.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/monitor.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/monitor.c > CMakeFiles/glfw.dir/monitor.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/monitor.c > CMakeFiles/glfw.dir/monitor.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.requires
@@ -211,18 +211,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.provides: src/common/ext
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/time.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_8)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/time.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/time.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/time.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/time.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/time.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/time.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/time.c > CMakeFiles/glfw.dir/time.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/time.c > CMakeFiles/glfw.dir/time.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/time.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/time.c -o CMakeFiles/glfw.dir/time.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/time.c -o CMakeFiles/glfw.dir/time.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o.requires
@@ -234,18 +234,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o.provides: src/common/ext/gl
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/window.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_9)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/window.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/window.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/window.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/window.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/window.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/window.c > CMakeFiles/glfw.dir/window.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/window.c > CMakeFiles/glfw.dir/window.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/window.c -o CMakeFiles/glfw.dir/window.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/window.c -o CMakeFiles/glfw.dir/window.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o.requires
@@ -257,18 +257,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o.provides: src/common/ext/
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_clipboard.m
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_10)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_clipboard.m
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_clipboard.m.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_clipboard.m
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_clipboard.m.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_clipboard.m
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_clipboard.m.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_clipboard.m > CMakeFiles/glfw.dir/cocoa_clipboard.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_clipboard.m > CMakeFiles/glfw.dir/cocoa_clipboard.m.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_clipboard.m.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_clipboard.m -o CMakeFiles/glfw.dir/cocoa_clipboard.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_clipboard.m -o CMakeFiles/glfw.dir/cocoa_clipboard.m.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o.requires
@@ -280,18 +280,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o.provides: src/co
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_gamma.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_11)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_gamma.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_gamma.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_gamma.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_gamma.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_gamma.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_gamma.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_gamma.c > CMakeFiles/glfw.dir/cocoa_gamma.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_gamma.c > CMakeFiles/glfw.dir/cocoa_gamma.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_gamma.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_gamma.c -o CMakeFiles/glfw.dir/cocoa_gamma.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_gamma.c -o CMakeFiles/glfw.dir/cocoa_gamma.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o.requires
@@ -303,18 +303,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o.provides: src/common
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_init.m
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_12)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_init.m
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_init.m.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_init.m
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_init.m.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_init.m
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_init.m.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_init.m > CMakeFiles/glfw.dir/cocoa_init.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_init.m > CMakeFiles/glfw.dir/cocoa_init.m.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_init.m.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_init.m -o CMakeFiles/glfw.dir/cocoa_init.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_init.m -o CMakeFiles/glfw.dir/cocoa_init.m.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o.requires
@@ -326,18 +326,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o.provides: src/common/
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_joystick.m
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_13)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_joystick.m
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_joystick.m.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_joystick.m
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_joystick.m.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_joystick.m
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_joystick.m.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_joystick.m > CMakeFiles/glfw.dir/cocoa_joystick.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_joystick.m > CMakeFiles/glfw.dir/cocoa_joystick.m.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_joystick.m.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_joystick.m -o CMakeFiles/glfw.dir/cocoa_joystick.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_joystick.m -o CMakeFiles/glfw.dir/cocoa_joystick.m.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o.requires
@@ -349,18 +349,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o.provides: src/com
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_monitor.m
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_14)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_monitor.m
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_monitor.m.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_monitor.m
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_monitor.m.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_monitor.m
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_monitor.m.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_monitor.m > CMakeFiles/glfw.dir/cocoa_monitor.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_monitor.m > CMakeFiles/glfw.dir/cocoa_monitor.m.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_monitor.m.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_monitor.m -o CMakeFiles/glfw.dir/cocoa_monitor.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_monitor.m -o CMakeFiles/glfw.dir/cocoa_monitor.m.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.requires
@@ -372,18 +372,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.provides: src/comm
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_time.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_15)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_time.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_time.c.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_time.c
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_time.c.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_time.c
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_time.c.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_time.c > CMakeFiles/glfw.dir/cocoa_time.c.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_time.c > CMakeFiles/glfw.dir/cocoa_time.c.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_time.c.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_time.c -o CMakeFiles/glfw.dir/cocoa_time.c.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_time.c -o CMakeFiles/glfw.dir/cocoa_time.c.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o.requires
@@ -395,18 +395,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o.provides: src/common/
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_window.m
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_16)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_window.m
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_window.m.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_window.m
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/cocoa_window.m.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_window.m
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/cocoa_window.m.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_window.m > CMakeFiles/glfw.dir/cocoa_window.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_window.m > CMakeFiles/glfw.dir/cocoa_window.m.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/cocoa_window.m.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/cocoa_window.m -o CMakeFiles/glfw.dir/cocoa_window.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/cocoa_window.m -o CMakeFiles/glfw.dir/cocoa_window.m.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o.requires
@@ -418,18 +418,18 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o.provides: src/commo
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o.provides.build: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o: src/common/ext/glfw/src/CMakeFiles/glfw.dir/flags.make
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o: /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/nsgl_context.m
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_17)
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/nsgl_context.m
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/nsgl_context.m.o   -c /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/nsgl_context.m
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/glfw.dir/nsgl_context.m.o   -c /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/nsgl_context.m
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/nsgl_context.m.i"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/nsgl_context.m > CMakeFiles/glfw.dir/nsgl_context.m.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -E /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/nsgl_context.m > CMakeFiles/glfw.dir/nsgl_context.m.i
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/nsgl_context.m.s"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src/nsgl_context.m -o CMakeFiles/glfw.dir/nsgl_context.m.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && /usr/bin/clang  $(C_DEFINES) $(C_FLAGS) -S /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src/nsgl_context.m -o CMakeFiles/glfw.dir/nsgl_context.m.s
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o.requires:
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o.requires
@@ -463,31 +463,31 @@ glfw_OBJECTS = \
 # External object files for target glfw
 glfw_EXTERNAL_OBJECTS =
 
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make
-/Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library /Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a"
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/context.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/gamma.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/init.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/input.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/joystick.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/monitor.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/time.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/window.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_clipboard.m.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_gamma.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_init.m.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_joystick.m.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_monitor.m.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_time.c.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/cocoa_window.m.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/nsgl_context.m.o
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/build.make
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a: src/common/ext/glfw/src/CMakeFiles/glfw.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a"
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean_target.cmake
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/glfw.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/common/ext/glfw/src/CMakeFiles/glfw.dir/build: /Users/zhangnoel/Dropbox/assignment04/bin/mk/libglfw3.a
+src/common/ext/glfw/src/CMakeFiles/glfw.dir/build: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libglfw3.a
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/build
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/requires: src/common/ext/glfw/src/CMakeFiles/glfw.dir/clipboard.c.o.requires
@@ -510,10 +510,10 @@ src/common/ext/glfw/src/CMakeFiles/glfw.dir/requires: src/common/ext/glfw/src/CM
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/requires
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/clean:
-	cd /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/glfw.dir/cmake_clean.cmake
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/clean
 
 src/common/ext/glfw/src/CMakeFiles/glfw.dir/depend:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangnoel/Dropbox/assignment04 /Users/zhangnoel/Dropbox/assignment04/src/common/ext/glfw/src /Users/zhangnoel/Dropbox/assignment04-build /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src /Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangnoel/GitHub/GraphicsHw4/assignment04 /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/glfw/src /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/common/ext/glfw/src/CMakeFiles/glfw.dir/depend
 

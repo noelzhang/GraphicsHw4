@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhangnoel/Dropbox/assignment04
+# Install script for directory: /Users/zhangnoel/GitHub/GraphicsHw4/assignment04
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/cmake_install.cmake")
-  include("/Users/zhangnoel/Dropbox/assignment04-build/src/cmake_install.cmake")
+  include("/Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/common/ext/glfw/cmake_install.cmake")
+  include("/Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/cmake_install.cmake")
 
 endif()
 
@@ -42,5 +42,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zhangnoel/Dropbox/assignment04-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

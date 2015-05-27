@@ -1,2 +1,2 @@
-/usr/bin/ar cq /Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a  CMakeFiles/common.dir/animation.cpp.o CMakeFiles/common.dir/image.cpp.o CMakeFiles/common.dir/intersect.cpp.o CMakeFiles/common.dir/json.cpp.o CMakeFiles/common.dir/scene.cpp.o CMakeFiles/common.dir/tesselation.cpp.o CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o CMakeFiles/common.dir/ext/glew/glew.c.o
-/usr/bin/ranlib /Users/zhangnoel/Dropbox/assignment04/bin/mk/libcommon.a
+/usr/bin/ar cq /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a  CMakeFiles/common.dir/animation.cpp.o CMakeFiles/common.dir/image.cpp.o CMakeFiles/common.dir/intersect.cpp.o CMakeFiles/common.dir/json.cpp.o CMakeFiles/common.dir/scene.cpp.o CMakeFiles/common.dir/tesselation.cpp.o CMakeFiles/common.dir/ext/lodepng/lodepng.cpp.o CMakeFiles/common.dir/ext/glew/glew.c.o
+/usr/bin/ranlib /Users/zhangnoel/GitHub/GraphicsHw4/assignment04/bin/mk/libcommon.a

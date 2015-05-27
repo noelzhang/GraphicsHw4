@@ -42,10 +42,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangnoel/Dropbox/assignment04
+CMAKE_SOURCE_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangnoel/Dropbox/assignment04-build
+CMAKE_BINARY_DIR = /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles /Users/zhangnoel/Dropbox/assignment04-build/src/apps/CMakeFiles/progress.marks
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/Dropbox/assignment04-build/CMakeFiles 0
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/src/apps/CMakeFiles/progress.marks
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/clean
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/preinstall
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/preinstall
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/apps/CMakeFiles/04_pathtrace.dir/rule:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/CMakeFiles/04_pathtrace.dir/rule
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f CMakeFiles/Makefile2 src/apps/CMakeFiles/04_pathtrace.dir/rule
 .PHONY : src/apps/CMakeFiles/04_pathtrace.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ src/apps/CMakeFiles/04_pathtrace.dir/rule:
 
 # fast build rule for target.
 04_pathtrace/fast:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/apps/CMakeFiles/04_pathtrace.dir/build.make src/apps/CMakeFiles/04_pathtrace.dir/build
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/apps/CMakeFiles/04_pathtrace.dir/build.make src/apps/CMakeFiles/04_pathtrace.dir/build
 .PHONY : 04_pathtrace/fast
 
 04_pathtrace.o: 04_pathtrace.cpp.o
@@ -120,7 +120,7 @@ src/apps/CMakeFiles/04_pathtrace.dir/rule:
 
 # target to build an object file
 04_pathtrace.cpp.o:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/apps/CMakeFiles/04_pathtrace.dir/build.make src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/apps/CMakeFiles/04_pathtrace.dir/build.make src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.o
 .PHONY : 04_pathtrace.cpp.o
 
 04_pathtrace.i: 04_pathtrace.cpp.i
@@ -128,7 +128,7 @@ src/apps/CMakeFiles/04_pathtrace.dir/rule:
 
 # target to preprocess a source file
 04_pathtrace.cpp.i:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/apps/CMakeFiles/04_pathtrace.dir/build.make src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.i
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/apps/CMakeFiles/04_pathtrace.dir/build.make src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.i
 .PHONY : 04_pathtrace.cpp.i
 
 04_pathtrace.s: 04_pathtrace.cpp.s
@@ -136,7 +136,7 @@ src/apps/CMakeFiles/04_pathtrace.dir/rule:
 
 # target to generate assembly for a file
 04_pathtrace.cpp.s:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(MAKE) -f src/apps/CMakeFiles/04_pathtrace.dir/build.make src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.s
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(MAKE) -f src/apps/CMakeFiles/04_pathtrace.dir/build.make src/apps/CMakeFiles/04_pathtrace.dir/04_pathtrace.cpp.s
 .PHONY : 04_pathtrace.cpp.s
 
 # Help Target
@@ -162,6 +162,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/zhangnoel/Dropbox/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/zhangnoel/GitHub/GraphicsHw4/assignment04-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

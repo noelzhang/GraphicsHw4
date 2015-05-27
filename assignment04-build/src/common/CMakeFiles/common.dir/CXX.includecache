@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/animation.cpp
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/animation.cpp
 animation.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/animation.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/animation.h
 tesselation.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/tesselation.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/tesselation.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/animation.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/animation.h
 scene.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/scene.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/common.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/common.h
 string
 -
 vector
@@ -38,17 +38,17 @@ cstdio
 typeinfo
 -
 debug.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/debug.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/debug.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/debug.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/debug.h
 set
 -
 tuple
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/lodepng/lodepng.cpp
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/lodepng/lodepng.cpp
 lodepng.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/lodepng/lodepng.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/lodepng/lodepng.h
 stdio.h
 -
 stdlib.h
@@ -56,7 +56,7 @@ stdlib.h
 fstream
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/lodepng/lodepng.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/lodepng/lodepng.h
 string.h
 -
 vector
@@ -64,47 +64,47 @@ vector
 string
 -
 lodepng.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/lodepng/lodepng.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/lodepng/lodepng.h
 iostream
 -
 lodepng.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/ext/lodepng/lodepng.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/ext/lodepng/lodepng.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/image.cpp
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/image.cpp
 image.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/image.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/image.h
 lodepng.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/lodepng.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/lodepng.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/image.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/image.h
 common.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/common.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/common.h
 vmath.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/vmath.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/vmath.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/intersect.cpp
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/intersect.cpp
 scene.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/scene.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.h
 intersect.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/intersect.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/intersect.h
 algorithm
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/intersect.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/intersect.h
 scene.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/scene.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/json.cpp
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/json.cpp
 json.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/json.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/json.h
 picojson.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/picojson.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/picojson.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/json.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/json.h
 common.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/common.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/common.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/picojson.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/picojson.h
 algorithm
 -
 cassert
@@ -136,29 +136,29 @@ float.h
 limits.h
 -
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/scene.cpp
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.cpp
 scene.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/scene.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/scene.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.h
 common.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/common.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/common.h
 json.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/json.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/json.h
 vmath.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/vmath.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/vmath.h
 image.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/image.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/image.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/tesselation.cpp
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/tesselation.cpp
 tesselation.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/tesselation.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/tesselation.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/tesselation.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/tesselation.h
 scene.h
-/Users/zhangnoel/Dropbox/assignment04/src/common/scene.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/scene.h
 
-/Users/zhangnoel/Dropbox/assignment04/src/common/vmath.h
+/Users/zhangnoel/GitHub/GraphicsHw4/assignment04/src/common/vmath.h
 cmath
 -
 cstdlib
