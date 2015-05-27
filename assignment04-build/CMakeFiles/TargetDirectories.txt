@@ -1,0 +1,3 @@
+/Users/zhangnoel/Dropbox/assignment04-build/src/apps/CMakeFiles/04_pathtrace.dir
+/Users/zhangnoel/Dropbox/assignment04-build/src/common/CMakeFiles/common.dir
+/Users/zhangnoel/Dropbox/assignment04-build/src/common/ext/glfw/src/CMakeFiles/glfw.dir
