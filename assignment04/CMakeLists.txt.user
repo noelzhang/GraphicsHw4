@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 3.4.0, 2015-05-27T20:04:44. -->
+<!-- Written by QtCreator 3.4.0, 2015-05-27T23:16:23. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -157,7 +157,7 @@
      <value type="int">14</value>
     </valuelist>
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguation.Title">04_pathtrace</value>
-    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.Arguments">01_textured_tile.json</value>
+    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.Arguments">02_area.json</value>
     <value type="bool" key="CMakeProjectManager.CMakeRunConfiguration.UseTerminal">false</value>
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory"></value>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>

@@ -125,6 +125,7 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
     }
     
     // foreach surface
+    for(Surface * surface : )
         // skip if no emission from surface
         // todo: pick a point on the surface, grabbing normal, area, and texcoord
         // check if quad
