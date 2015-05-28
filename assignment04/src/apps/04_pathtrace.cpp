@@ -15,7 +15,7 @@ void pathtrace(Scene* scene, image3f* image, RngImage* rngs, int offset_row, int
 
 
 // lookup texture value
-vec3f lookup_scaled_texture(vec3f value, image3f* texture, vec2f uv, bool tile = false, bool isBilinearFilter = true) {
+vec3f lookup_scaled_texture(vec3f value, image3f* texture, vec2f uv, bool tile = true, bool isBilinearFilter = true) {
     if(not texture) return value;
     //if use texture tiling
     if(tile){
@@ -34,11 +34,14 @@ vec3f lookup_scaled_texture(vec3f value, image3f* texture, vec2f uv, bool tile =
             float s = u * (texture->width()) - i;
             float t = v * (texture->height()) - j;
 
-            auto v0 = value * texture->at(i, j);
-            auto v1 = value * texture->at(i, clamp(j + 1,0,texture->height()-1));
-            auto v2 = value * texture->at(clamp(i + 1,0,texture->width()-1), j);
-            auto v3 = value * texture->at(clamp(i + 1,0,texture->width()-1), clamp(j + 1,0,texture->height()-1));
-            return v0*(1.0f-s)*(1.0f-t) + v1*(1.0f-s)*t + v2*s*(1.0f-t) + v3*s*t;
+            auto cij = value * texture->at(i, j);
+            auto cij1 = value * texture->at(i, clamp(j + 1,0,texture->height()-1));
+            auto ci1j = value * texture->at(clamp(i + 1,0,texture->width()-1), j);
+            auto ci1j1 = value * texture->at(clamp(i + 1,0,texture->width()-1), clamp(j + 1,0,texture->height()-1));
+            return cij*(1.0-s)*(1.0-t)
+                 + cij1*(1.0-s)*t
+                 + ci1j*s*(1.0-t)
+                 + ci1j1*s*t;
         }
         else{
             return value * texture->at(u*(texture->width()-1), v*(texture->height()-1));
@@ -60,7 +63,10 @@ vec3f eval_brdf(vec3f kd, vec3f ks, float n, vec3f v, vec3f l, vec3f norm, bool 
 
 // evaluate the environment map
 vec3f eval_env(vec3f ke, image3f* ke_txt, vec3f dir) {
-    return ke; // <- placeholder
+    if (ke_txt == nullptr) return ke;
+    auto u = atan2(dir.x, dir.z) / (2 * pif);
+    auto v = 1 - acos(dir.y) / pif;
+    return lookup_scaled_texture(ke, ke_txt, vec2f(u, v), true);
 }
 
 // compute the color corresponing to a ray by pathtrace
