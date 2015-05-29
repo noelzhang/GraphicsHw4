@@ -47,8 +47,8 @@ vec3f lookup_scaled_texture(vec3f value, image3f* texture, vec2f uv, bool tile =
             return value * texture->at(u*(texture->width()-1), v*(texture->height()-1));
         }
     }
-
 }
+
 
 // compute the brdf
 vec3f eval_brdf(vec3f kd, vec3f ks, float n, vec3f v, vec3f l, vec3f norm, bool microfacet) {
@@ -65,7 +65,7 @@ vec3f eval_brdf(vec3f kd, vec3f ks, float n, vec3f v, vec3f l, vec3f norm, bool 
         return brdf; // <- placeholder
     }
 }
-
+// evaluate the environment map
 // evaluate the environment map
 vec3f eval_env(vec3f ke, image3f* ke_txt, vec3f dir) {
     if (ke_txt == nullptr) return ke;
@@ -73,6 +73,7 @@ vec3f eval_env(vec3f ke, image3f* ke_txt, vec3f dir) {
     auto v = 1 - acos(dir.y) / pif;
     return lookup_scaled_texture(ke, ke_txt, vec2f(u, v), true);
 }
+
 
 // compute the color corresponing to a ray by pathtrace
 vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
@@ -125,44 +126,131 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
     }
     
     // foreach surface
+    for (Surface* surface: scene->surfaces) {
         // skip if no emission from surface
+        if (surface->mat->ke == zero3f) {
+            continue;
+        }
         // todo: pick a point on the surface, grabbing normal, area, and texcoord
+        vec3f normal = zero3f;
+        vec3f newPoint = zero3f;
+        vec3f lightPos;
+        vec2f rand2f = rng->next_vec2f();
+        float area;
         // check if quad
+        if (surface->isquad) {
             // generate a 2d random number
+            newPoint.x = (rand2f.x - 0.5) * 2 * surface->radius;
+            newPoint.y = (rand2f.y - 0.5) * 2 * surface->radius;
             // compute light position, normal, area
+            lightPos = transform_point_from_local(surface->frame, newPoint);
+            area = 4 * surface->radius * surface->radius;
+            normal = transform_normal_from_local(surface->frame, vec3f(0.0, 0.0, 1.0));
             // set tex coords as random value got before
-        // else if sphere
+            intersection.texcoord.x = rand2f.x;
+            intersection.texcoord.y = rand2f.y;
+        } else {
+            // else if sphere
             // generate a 2d random number
+            newPoint.x = rand2f.x;
+            newPoint.y = rand2f.y;
             // compute light position, normal, area
+            lightPos = transform_point_from_local(surface->frame, surface->radius * sample_direction_spherical_uniform(rand2f));
+            area = 4 * pif * surface->radius * surface->radius;
+            normal = transform_normal_from_local(surface->frame, sample_direction_spherical_uniform(rand2f));
             // set tex coords as random value got before
+            intersection.texcoord.x = rand2f.x;
+            intersection.texcoord.y = rand2f.y;
+        }
+
         // get light emission from material and texture
+        auto light_emission = lookup_scaled_texture(surface->mat->ke, surface->mat->ke_txt, rand2f);
         // compute light direction
+        auto light_direction = normalize(lightPos - pos);
         // compute light response (ke * area * cos_of_light / dist^2)
+        auto light_reponse = light_emission * area * max(-1 * dot(light_direction, normal), 0.0f) / distSqr(pos, lightPos);
         // compute the material response (brdf*cos)
+        auto material_response = max(dot(norm, light_direction), 0.0f) * eval_brdf(kd, ks, n, v, light_direction, norm, mf);
         // multiply brdf and light
+        auto shade = light_reponse * material_response;
         // check for shadows and accumulate if needed
+        if (shade == zero3f) {
+            continue;
+        }
         // if shadows are enabled
+        if (scene->path_shadows) {
             // perform a shadow check and accumulate
-        // else just accumulate
-    
+            if(!intersect_shadow(scene, ray3f::make_segment(pos, lightPos))) {
+                c += shade;
+            }
+        } else {
+            // else just accumulate
+            c += shade;
+        }
+    }
+
     // todo: sample the brdf for environment illumination if the environment is there
     // if scene->background is not zero3f
+    if (scene->background != zero3f) {
         // pick direction and pdf
+        auto dir_pdf= sample_brdf(kd, ks, n, v, norm, rng->next_vec2f(), rng->next_float());
         // compute the material response (brdf*cos)
+        auto brdf_cos = max(dot(norm, dir_pdf.first), 0.0f) * eval_brdf(kd, ks, n, v, dir_pdf.first, norm, mf);
         // todo: accumulate response scaled by brdf*cos/pdf
+        auto response = brdf_cos * eval_env(scene->background, scene->background_txt, dir_pdf.first) / dir_pdf.second;
         // if material response not zero3f
+        if (response != zero3f) {
             // if shadows are enabled
+            if (scene->path_shadows) {
                 // perform a shadow check and accumulate
+                if (!intersect_shadow(scene, ray3f(pos, dir_pdf.first))) {
+                    c += response;
+                }
+            } else {
                 // else just accumulate
-    
+                c += response;
+            }
+        }
+    }
+
     // todo: sample the brdf for indirect illumination
+
     // if kd and ks are not zero3f and haven't reach max_depth
+    // if isRussianRoulette is ture
+    if (scene->isRussianRoulette) {
         // pick direction and pdf
         // compute the material response (brdf*cos)
         // accumulate recersively scaled by brdf*cos/pdf
+        auto dir_pdf = sample_brdf(kd, ks, n, v, norm, rng->next_vec2f(), rng->next_float());
+        auto brdf_cos = max(dot(norm, dir_pdf.first), 0.0f) * eval_brdf(kd, ks, n, v, dir_pdf.first, norm, mf);
+        if (dir_pdf.second > 0.1) {
+            c += pathtrace_ray(scene, ray3f(pos, dir_pdf.first), rng, depth + 1) * (brdf_cos / dir_pdf.second) / (1 - dir_pdf.second);
+        }
+    } else {
+        // pick direction and pdf
+        // compute the material response (brdf*cos)
+        // accumulate recersively scaled by brdf*cos/pdf
+
+        auto dir_pdf = sample_brdf(kd, ks, n, v, norm, rng->next_vec2f(), rng->next_float());
+        auto brdf_cos = max(dot(norm, dir_pdf.first), 0.0f) * eval_brdf(kd, ks, n, v, dir_pdf.first, norm, mf);
+        c += pathtrace_ray(scene, ray3f(pos, dir_pdf.first), rng, depth + 1) * (brdf_cos / dir_pdf.second) / (1 - dir_pdf.second);
+    }
+
     
     // if the material has reflections
     if(not (intersection.mat->kr == zero3f)) {
+        // if isBullryReflection is ture
+        if (scene->isBlurryReflection) {
+            auto sum = zero3f;
+            int num = 10;
+            for (int i = 0; i < num; i++) {
+                // ray by random direction
+                auto refl = reflect(ray.d, intersection.norm);
+                refl *= (1 - 0.2 * rng->next_float());
+                auto rr = ray3f(intersection.pos, refl);
+            }
+            c += (sum / num);
+        }
         // create the reflection ray
         auto rr = ray3f(intersection.pos,reflect(ray.d,intersection.norm));
         // accumulate the reflected light (recursive call) scaled by the material reflection

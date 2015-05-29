@@ -179,6 +179,11 @@ struct Scene {
     int                 path_max_depth = 2;     // maximum path depth
     bool                path_sample_brdf = true;// sample brdf in path tracing
     bool                path_shadows = true;    // whether to compute shadows
+
+
+    bool                isMipmap = false;     // if mipmap?
+    bool                isRussianRoulette = false; // if russian?
+    bool                isBlurryReflection = false;// if blurry?
 };
 
 // grab all scene textures
