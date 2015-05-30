@@ -37,7 +37,8 @@ vec3f lookup_scaled_texture(vec3f value, image3f* texture, vec2f uv, bool tile =
             auto cij = value * texture->at(i, j);
             auto cij1 = value * texture->at(i, clamp(j + 1,0,texture->height()-1));
             auto ci1j = value * texture->at(clamp(i + 1,0,texture->width()-1), j);
-            auto ci1j1 = value * texture->at(clamp(i + 1,0,texture->width()-1), clamp(j + 1,0,texture->height()-1));
+            auto ci1j1 = value * texture->at(clamp(i + 1,0,texture->width()-1),
+                                             clamp(j + 1,0,texture->height()-1));
             return cij*(1.0-s)*(1.0-t)
                  + cij1*(1.0-s)*t
                  + ci1j*s*(1.0-t)
@@ -126,6 +127,7 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
     }
     
     // foreach surface
+<<<<<<< Updated upstream
     for (Surface* surface: scene->surfaces) {
         // skip if no emission from surface
         if (surface->mat->ke == zero3f) {
@@ -183,6 +185,7 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
             if(!intersect_shadow(scene, ray3f::make_segment(pos, lightPos))) {
                 c += shade;
             }
+
         } else {
             // else just accumulate
             c += shade;
