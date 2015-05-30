@@ -15,12 +15,14 @@ void pathtrace(Scene* scene, image3f* image, RngImage* rngs, int offset_row, int
 
 
 // lookup texture value
-vec3f lookup_scaled_texture(vec3f value, image3f* texture, vec2f uv, bool tile = true, bool isBilinearFilter = true) {
+vec3f lookup_scaled_texture(vec3f value, image3f* texture, vec2f uv, bool tile = false, bool isBilinearFilter = true) {
     if(not texture) return value;
     //if use texture tiling
     if(tile){
         auto u = uv.x - (int) uv.x;
         auto v = uv.y - (int) uv.y;
+        u = u<0?u+1:u;
+        v = v<0?v+1:v;
         return lookup_scaled_texture(value,texture, vec2f(u,v),false, isBilinearFilter);
     }
     //if not use texture tiling
@@ -127,7 +129,6 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
     }
     
     // foreach surface
-<<<<<<< Updated upstream
     for (Surface* surface: scene->surfaces) {
         // skip if no emission from surface
         if (surface->mat->ke == zero3f) {
@@ -230,36 +231,41 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
             c += pathtrace_ray(scene, ray3f(pos, dir_pdf.first), rng, depth + 1) * (brdf_cos / dir_pdf.second) / (1 - dir_pdf.second);
         }
     } else {
-        // pick direction and pdf
-        // compute the material response (brdf*cos)
-        // accumulate recersively scaled by brdf*cos/pdf
-
-        auto dir_pdf = sample_brdf(kd, ks, n, v, norm, rng->next_vec2f(), rng->next_float());
-        auto brdf_cos = max(dot(norm, dir_pdf.first), 0.0f) * eval_brdf(kd, ks, n, v, dir_pdf.first, norm, mf);
-        c += pathtrace_ray(scene, ray3f(pos, dir_pdf.first), rng, depth + 1) * (brdf_cos / dir_pdf.second) / (1 - dir_pdf.second);
+        if(depth < scene->path_max_depth && (kd != zero3f || ks != zero3f)){
+            auto res = sample_brdf(kd, ks, n, v, norm, rng->next_vec2f(), rng->next_float());
+            // compute the material response (brdf*cos)
+            auto brdfcos= (max(dot(norm, res.first),0.0f)) * eval_brdf(kd, ks, n, v, res.first, norm, mf);
+            // accumulate recersively scaled by brdf*cos/pdf
+            c += pathtrace_ray(scene, ray3f(pos, res.first), rng, depth + 1) * (brdfcos / res.second);
+        }
     }
 
-    
+
     // if the material has reflections
-    if(not (intersection.mat->kr == zero3f)) {
+    if((!(intersection.mat->kr == zero3f))&&( depth < scene->path_max_depth)) {
         // if isBullryReflection is ture
         if (scene->isBlurryReflection) {
             auto sum = zero3f;
-            int num = 10;
-            for (int i = 0; i < num; i++) {
+            int blurV = 10;
+            for (int i = 0; i < blurV; i++) {
                 // ray by random direction
                 auto refl = reflect(ray.d, intersection.norm);
-                refl *= (1 - 0.2 * rng->next_float());
-                auto rr = ray3f(intersection.pos, refl);
+                refl *= (1 - 0.3 * rng->next_float());
+                // create the reflection ray
+                auto rr = ray3f(intersection.pos,reflect(ray.d,intersection.norm));
+                // accumulate the reflected light (recursive call) scaled by the material reflection
+                c += intersection.mat->kr * pathtrace_ray(scene,rr,rng,depth+1);
             }
-            c += (sum / num);
+            c += (sum / blurV);
         }
-        // create the reflection ray
-        auto rr = ray3f(intersection.pos,reflect(ray.d,intersection.norm));
-        // accumulate the reflected light (recursive call) scaled by the material reflection
-        c += intersection.mat->kr * pathtrace_ray(scene,rr,rng,depth+1);
+        else{
+            // create the reflection ray
+            auto rr = ray3f(intersection.pos,reflect(ray.d,intersection.norm));
+            // accumulate the reflected light (recursive call) scaled by the material reflection
+            c += intersection.mat->kr * pathtrace_ray(scene,rr,rng,depth+1);
+        }
     }
-    
+
     // return the accumulated color
     return c;
 }

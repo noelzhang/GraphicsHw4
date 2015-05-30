@@ -340,6 +340,11 @@ Scene* json_parse_scene(const jsonvalue& json) {
     json_set_optvalue(json, scene->path_max_depth, "path_max_depth");
     json_set_optvalue(json, scene->path_sample_brdf, "path_sample_brdf");
     json_set_optvalue(json, scene->path_shadows, "path_shadows");
+
+    //------------------
+    json_set_optvalue(json, scene->isMipmap, "isMipmap");
+    json_set_optvalue(json, scene->isBlurryReflection, "isBlurryReflection");
+    json_set_optvalue(json,scene->isRussianRoulette,"isRussianRoulette");
     // done
     return scene;
 }
