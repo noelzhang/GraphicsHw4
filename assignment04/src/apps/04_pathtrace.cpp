@@ -8,6 +8,10 @@ using std::thread;
 
 // modify the following line to disable/enable parallel execution of the pathtracer
 bool parallel_pathtrace = true;
+//------read mipmap level pngs
+image3f levelBlue = read_png("mip_blue_128.png", true);
+image3f levelGreen = read_png("mip_green_256.png", true);
+image3f level_2 = read_png("mip_red_512.png", true);
 
 image3f pathtrace(Scene* scene, bool multithread);
 void pathtrace(Scene* scene, image3f* image, RngImage* rngs, int offset_row, int skip_row, bool verbose);
@@ -92,10 +96,31 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
     auto pos = intersection.pos;
     auto norm = intersection.norm;
     auto v = -ray.d;
-    
+    vec3f kd;
     // compute material values by looking up textures
+    if(!scene->isMipmap)
+        kd = lookup_scaled_texture(intersection.mat->kd, intersection.mat->kd_txt, intersection.texcoord);
+    else{
+        auto dis = dist(intersection.pos,ray.e);
+        float scale;
+        if (dis < 1.8) {
+            kd += lookup_scaled_texture(intersection.mat->kd, &levelBlue, intersection.texcoord);
+        }
+        else if (dis < 3.6) {
+            scale = (3.6 - dis) / 0.4;
+            kd += scale * lookup_scaled_texture(intersection.mat->kd, &levelBlue, intersection.texcoord) +
+                    (1 - scale) * lookup_scaled_texture(intersection.mat->kd, &levelGreen, intersection.texcoord);
+        }
+        else if (dis < 4) {
+            kd += lookup_scaled_texture(intersection.mat->kd, &levelGreen, intersection.texcoord);
+        }
+        else if (dis < 5.2) {
+            scale = (5.2 - dis) / 1.2;
+            kd += scale * lookup_scaled_texture(intersection.mat->kd, &levelGreen, intersection.texcoord) +
+                 (1 - scale) * lookup_scaled_texture(intersection.mat->kd, &level_2, intersection.texcoord);
+        }
+    }
     auto ke = lookup_scaled_texture(intersection.mat->ke, intersection.mat->ke_txt, intersection.texcoord);
-    auto kd = lookup_scaled_texture(intersection.mat->kd, intersection.mat->kd_txt, intersection.texcoord);
     auto ks = lookup_scaled_texture(intersection.mat->ks, intersection.mat->ks_txt, intersection.texcoord);
     auto n = intersection.mat->n;
     auto mf = intersection.mat->microfacet;
@@ -134,7 +159,7 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
         if (surface->mat->ke == zero3f) {
             continue;
         }
-        // todo: pick a point on the surface, grabbing normal, area, and texcoord
+// -------------------------todo: pick a point on the surface, grabbing normal, area, and texcoord
         vec3f normal = zero3f;
         vec3f newPoint = zero3f;
         vec3f lightPos;
@@ -192,8 +217,8 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
             c += shade;
         }
     }
-
-    // todo: sample the brdf for environment illumination if the environment is there
+//--------------------------------------------------------------------------------------------------------
+//------------------------- todo: sample the brdf for environment illumination if the environment is there
     // if scene->background is not zero3f
     if (scene->background != zero3f) {
         // pick direction and pdf
@@ -216,21 +241,20 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
             }
         }
     }
-
-    // todo: sample the brdf for indirect illumination
-
-    // if kd and ks are not zero3f and haven't reach max_depth
+//--------------------------------------------------------------------------------------------------
+// -------------------------todo: sample the brdf for indirect illumination-------------------------
     // if isRussianRoulette is ture
     if (scene->isRussianRoulette) {
         // pick direction and pdf
-        // compute the material response (brdf*cos)
-        // accumulate recersively scaled by brdf*cos/pdf
         auto dir_pdf = sample_brdf(kd, ks, n, v, norm, rng->next_vec2f(), rng->next_float());
+        // compute the material response (brdf*cos)
         auto brdf_cos = max(dot(norm, dir_pdf.first), 0.0f) * eval_brdf(kd, ks, n, v, dir_pdf.first, norm, mf);
         if (dir_pdf.second > 0.1) {
+            // accumulate recersively scaled by brdf*cos/pdf
             c += pathtrace_ray(scene, ray3f(pos, dir_pdf.first), rng, depth + 1) * (brdf_cos / dir_pdf.second) / (1 - dir_pdf.second);
         }
     } else {
+        // if kd and ks are not zero3f and haven't reach max_depth
         if(depth < scene->path_max_depth && (kd != zero3f || ks != zero3f)){
             auto res = sample_brdf(kd, ks, n, v, norm, rng->next_vec2f(), rng->next_float());
             // compute the material response (brdf*cos)
@@ -239,33 +263,38 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
             c += pathtrace_ray(scene, ray3f(pos, res.first), rng, depth + 1) * (brdfcos / res.second);
         }
     }
-
-
+//----------------------------------------------------------------------------------------------------
+//-------------------------todo: reflections----------------------------------------------------------
     // if the material has reflections
     if((!(intersection.mat->kr == zero3f))&&( depth < scene->path_max_depth)) {
         // if isBullryReflection is ture
         if (scene->isBlurryReflection) {
             auto sum = zero3f;
             int blurV = 10;
+            //------build up the frame
+            vec3f reflectRay = reflect(ray.d,intersection.norm);
+            vec3f u = normalize(cross(ray.d, reflectRay));
+            vec3f v = normalize(cross(reflectRay, u));
+            //accumulate rays..
             for (int i = 0; i < blurV; i++) {
-                // ray by random direction
-                auto refl = reflect(ray.d, intersection.norm);
-                refl *= (1 - 0.3 * rng->next_float());
-                // create the reflection ray
-                auto rr = ray3f(intersection.pos,reflect(ray.d,intersection.norm));
-                // accumulate the reflected light (recursive call) scaled by the material reflection
-                c += intersection.mat->kr * pathtrace_ray(scene,rr,rng,depth+1);
+                vec2f rand2f = rng->next_vec2f();
+                //randomly generate rays
+                auto blurRayDirect = normalize(reflectRay + (0.5f - rand2f.x) * 0.1 * u + (0.5f - rand2f.y) * 0.1 * v);
+                auto bluredRay = ray3f(pos, blurRayDirect);
+                //add up all the rays
+                sum += pathtrace_ray(scene, bluredRay, rng, depth + 1);
             }
+            //average!
             c += (sum / blurV);
         }
         else{
             // create the reflection ray
-            auto rr = ray3f(intersection.pos,reflect(ray.d,intersection.norm));
+            auto reflectRay = ray3f(intersection.pos,reflect(ray.d,intersection.norm));
             // accumulate the reflected light (recursive call) scaled by the material reflection
-            c += intersection.mat->kr * pathtrace_ray(scene,rr,rng,depth+1);
+            c += intersection.mat->kr * pathtrace_ray(scene,reflectRay,rng,depth+1);
         }
     }
-
+//----------------------------------------------------------------------------------------------------
     // return the accumulated color
     return c;
 }
