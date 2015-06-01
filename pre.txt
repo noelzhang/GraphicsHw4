@@ -1,0 +1,6 @@
+This scene is rendered with blurry reflections and considered the depth of the field.
+We also used a quad area light. 
+The idea of imitating the two effect is quit similar. 
+We generate several rays with some small scale of deflection.
+Then the scene will looks more "real"..
+It really cost some time(2k+ seconds).

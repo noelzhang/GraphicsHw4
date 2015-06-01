@@ -2,8 +2,9 @@
 #include "intersect.h"
 #include "montecarlo.h"
 #include "animation.h"
-
+#include <ctime>
 #include <thread>
+#include <iostream>
 using std::thread;
 
 // modify the following line to disable/enable parallel execution of the pathtracer
@@ -270,7 +271,7 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
         // if isBullryReflection is ture
         if (scene->isBlurryReflection) {
             auto sum = zero3f;
-            int blurV = 10;
+            int blurV = 5;
             //------build up the frame
             vec3f reflectRay = reflect(ray.d,intersection.norm);
             vec3f u = normalize(cross(ray.d, reflectRay));
@@ -302,6 +303,7 @@ vec3f pathtrace_ray(Scene* scene, ray3f ray, Rng* rng, int depth) {
 
 // runs the raytrace over all tests and saves the corresponding images
 int main(int argc, char** argv) {
+    time_t t1 = time(NULL);
     auto args = parse_cmdline(argc, argv,
         { "04_pathtrace", "raytrace a scene",
             {  {"resolution",     "r", "image resolution", typeid(int),    true,  jsonvalue() } },
@@ -344,6 +346,8 @@ int main(int argc, char** argv) {
     
     delete scene;
     message("done\n");
+    time_t t2= time(NULL);
+    std::cout<<t2-t1<<std::endl;
 }
 
 
@@ -367,15 +371,33 @@ void pathtrace(Scene* scene, image3f* image, RngImage* rngs, int offset_row, int
                 for(auto ii : range(scene->image_samples)) {
                     // compute ray-camera parameters (u,v) for the pixel and the sample
                     auto u = (i + (ii + rng->next_float())/scene->image_samples) /
-                        scene->image_width;
+                            scene->image_width;
                     auto v = (j + (jj + rng->next_float())/scene->image_samples) /
-                        scene->image_height;
-                    // compute camera ray
-                    auto ray = transform_ray(scene->camera->frame,
-                        ray3f(zero3f,normalize(vec3f((u-0.5f)*scene->camera->width,
-                                                     (v-0.5f)*scene->camera->height,-1))));
-                    // set pixel to the color raytraced with the ray
-                    image->at(i,j) += pathtrace_ray(scene,ray,rng,0);
+                            scene->image_height;
+                    if(scene->isDepth){
+                        vec3f depthAccumulate = zero3f;
+                        for(int k = 0; k < 5; k++){
+                            vec2f rand2f = rng->next_vec2f();
+                            //pick the start point of the ray randomly
+                            vec3f pt1 = vec3f(rand2f.x, rand2f.y, 0) * 0.2;
+                            vec3f pt2 = vec3f((u-0.5f)* scene->camera->width * scene->camera->focus/scene->camera->dist,
+                                            (v-0.5f)* scene->camera->height* scene->camera->focus/scene->camera->dist,
+                                            -scene->camera->focus);
+                            auto rayDrct = pt2-pt1;
+                            ray3f ray = ray3f(pt1, normalize(rayDrct));
+                            ray = transform_ray(scene->camera->frame, ray);
+                            depthAccumulate += pathtrace_ray(scene, ray, rng, 0);
+                        }
+                        image->at(i,j) += depthAccumulate / 5;
+                    }
+                    else{
+                        // compute camera ray
+                        auto ray = transform_ray(scene->camera->frame,
+                                                 ray3f(zero3f,normalize(vec3f((u-0.5f)*scene->camera->width,
+                                                                              (v-0.5f)*scene->camera->height,-1))));
+                        // set pixel to the color raytraced with the ray
+                        image->at(i,j) += pathtrace_ray(scene,ray,rng,0);
+                    }
                 }
             }
             // scale by the number of samples

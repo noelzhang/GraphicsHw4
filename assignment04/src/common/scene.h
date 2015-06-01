@@ -154,8 +154,8 @@ struct SceneAnimation {
 struct Scene {
     Camera*             camera = new Camera();  // camera
     
-    int                 image_width = 512;      // image resolution in x
-    int                 image_height = 512;     // image resolution in y
+    int                 image_width = 1024;      // image resolution in x
+    int                 image_height = 1024;     // image resolution in y
     int                 image_samples = 1;      // samples per pixels in each direction
     
     vector<Light*>      lights;                 // lights
@@ -184,6 +184,8 @@ struct Scene {
     bool                isMipmap = false;     // if mipmap?
     bool                isRussianRoulette = false; // if russian?
     bool                isBlurryReflection = false;// if blurry?
+
+    bool                isDepth = false;
 };
 
 // grab all scene textures

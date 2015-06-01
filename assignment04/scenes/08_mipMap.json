@@ -1,0 +1,17 @@
+{
+    "lookat_camera": { "from": [0,1.5,2.1] },
+    "surfaces": [
+        {
+            "frame": { "o": [0,-1,0], "x": [1,0,0], "y": [0,0,-1], "z": [0,1,0] },
+            "radius":  2, "isquad": true,
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100 }
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [4,12,5] }, "intensity": [100,100,100] }
+    ],
+    "background": [0,0,0],
+    "image_samples": 1,
+    "path_max_depth": 0,
+    "isMipmap": true
+}
